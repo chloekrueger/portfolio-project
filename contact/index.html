@@ -17,15 +17,42 @@
         <li id ="four"><a href="/blog">Blog</a></li>
       </ul>
     </nav>
-    <form>
-      <p>Text: </p>
-        <input type="text">
-      <p>PW: </p>
-        <input type="password">
-      <p>Email:</p>
-        <input type="email">
-          <p>Text: </p>
-        <input type="submit">
+    <!--
+      The action attribute defines where on the server the form data should be sent
+      The method attribute specifies the HTTP method (GET or POST)
+    -->
+
+    <form action="//formspree.io/savcod@mailinator.com" method="POST">
+      <div>
+      <input required type="text" name="firstname" value="First Name" size="100" autofocus>
+      <input required type="text" name="lastname" value="Last Name" size="100">
+      <input required type="email" name="userEmail" placeholder="your.email@example.com" size="100"><br>
+      <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!<br><br>
+      </div>
+      <div>
+      <label>What's this message about?<br>
+        <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span><br>
+        <input type="radio" name="subject" value="personal" checked><span>Personal message</span><br>
+        <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
+      </label></div>
+      <div><br>
+      <label for="color">Whats your favorite color?</label>
+      <select name="color">
+          <option value="blue">Blue</option>
+          <option value="orange">Orange</option>
+          <option value="green">Green</option>
+          <option value="yellow">Yellow</option>
+          <option value="orange">Orange</option>
+          <option value="purple">Purple</option>
+          <option value="red">Red</option>
+        <!--</optgroup>-->
+        <option value="other">Other</option>
+      </select><br>
+
+      <textarea name="user_message" rows="8" cols="40"></textarea>
+      <input type="submit">
+      </div>
+    </form>
 </form>
 </body>
 </html>
