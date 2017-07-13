@@ -1,0 +1,30 @@
+body {
+  background-color:#afeeee;
+  width: 90%;
+  margin: 0 auto;
+  }
+  ul {
+    list-style-type:none;
+  }
+#one {
+    background-color:#00FA9a;
+    width: 150%;
+  }
+#two {
+  background-color:#ff8c00;
+  width: 150%;
+}
+#three {
+  background-color:#ff6347;
+  width: 150%;
+}
+.photo {
+  border-radius:25%;
+}
+header {
+  font-family:'Roboto Slab', serif;
+}
+.photo {
+  border-style:solid;
+  border-radius:25%;
+}
