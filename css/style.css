@@ -18,6 +18,10 @@ body {
   background-color:#ff6347;
   width: 150%;
 }
+#four {
+  background-color:#f66347;
+  width: 150%;
+}
 .photo {
   border-radius:25%;
 }
