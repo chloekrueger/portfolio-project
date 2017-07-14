@@ -1,4 +1,14 @@
-body {
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  width: 20%;
+}
+
+  body {
   background-color:#afeeee;
   width: 90%;
   margin: 0 auto;
