@@ -1,44 +1,51 @@
+/*----------------------ALL-------------------------------*/
+
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/*----------------------HEADER-------------------------------*/
+
+header {
+  background-color: #213e4f;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-family: 'Megrim', cursive;
+  display: inline;
+}
+
+nav li {
+  display: inline;
+  
+}
+
+/*----------------------BODY-------------------------------*/
+
+body {
+  background-color: #d7e0e6;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/*----------------------HOME PAGE---------------------------*/
+
+.photo {
+  border-radius: 100%;
+  width: 300px;
+  height: auto;
+}
+
+/*--------BLOG------------*/
 .container {
   max-width: 90%;
   margin: 0 auto;
 }
-nav li {
-  display: inline;
-  list-style-type: none;
-  width: 20%;
-}
 
-  body {
-  background-color:#afeeee;
-  width: 90%;
-  margin: 0 auto;
-  }
   ul {
     list-style-type:none;
   }
-#one {
-    background-color:#00FA9a;
-    width: 150%;
-  }
-#two {
-  background-color:#ff8c00;
-  width: 150%;
-}
-#three {
-  background-color:#ff6347;
-  width: 150%;
-}
-#four {
-  background-color:#f66347;
-  width: 150%;
-}
-.photo {
-  border-radius:25%;
-}
-header {
-  font-family:'Roboto Slab', serif;
-}
-.photo {
-  border-style:solid;
-  border-radius:25%;
-}
