@@ -1,4 +1,4 @@
-<!--cONTACT PAGE-->
+<!--CONTACT PAGE-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,6 +22,8 @@
         </ul>
       </nav>
     </header>
+    <h2>I'd love to hear from you!</h2>
+    <p>*Required fields</p>
     <!--
       The action attribute defines where on the server the form data should be sent
       The method attribute specifies the HTTP method (GET or POST)
@@ -29,40 +31,26 @@
 
     <form action="//formspree.io/savcod@mailinator.com" method="POST">
       <div>
-      <input required type="text" name="firstname" value="First Name" size="100" autofocus>
-      <input required type="text" name="lastname" value="Last Name" size="100">
-      <input required type="email" name="userEmail" placeholder="your.email@example.com" size="100"><br>
-      <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!<br><br>
+      <input required type="text" name="firstname" placeholder="First Name*" size="50" autofocus>
+      <input required type="text" name="lastname" placeholder="Last Name*" size="50"><br>
+      <input required type="email" name="userEmail" placeholder="your.email@example.com*" size="100"><br>
       </div>
       <div>
-      <label>What's this message about?<br>
+      <label>What's this message about?*<br>
         <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span><br>
         <input type="radio" name="subject" value="personal" checked><span>Personal message</span><br>
         <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
       </label></div>
       <div><br>
-      <label for="color">Whats your favorite color?</label>
-      <select name="color">
-          <option value="blue">Blue</option>
-          <option value="orange">Orange</option>
-          <option value="green">Green</option>
-          <option value="yellow">Yellow</option>
-          <option value="orange">Orange</option>
-          <option value="purple">Purple</option>
-          <option value="red">Red</option>
-        <!--</optgroup>-->
-        <option value="other">Other</option>
-      </select><br>
-
       <textarea name="user_message" rows="8" cols="40"></textarea>
       <input type="submit">
       </div>
     </form>
 </form>
   <footer>
-    <i><a href="https://www.linkedin.com/in/chloe-krueger-12705b69/">LinkedIn</a><i> ||
-    <i><a href="https://www.facebook.com/settings?tab=account&section=username">Facebook</a><i> ||
-    <i><a href="https://www.instagram.com/pocketfulofskies/?hl=en">Instagram</a><i>
+    <a href="https://www.linkedin.com/in/chloe-krueger-12705b69/">LinkedIn</a> ||
+    <a href="https://www.facebook.com/settings?tab=account&section=username">Facebook</a> ||
+    <a href="https://www.instagram.com/pocketfulofskies/?hl=en">Instagram</a>
       <p>&copy; Chloe Krueger 2017</p>
    </footer>
   </body>
