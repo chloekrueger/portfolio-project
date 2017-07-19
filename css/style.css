@@ -60,4 +60,9 @@ body {
 #nav li {
   display: inline;
   list-style-type: none;
+
+/*--------BLOG------------*/
+
+#greeting {
+  background-color: blue;
 }
