@@ -15,17 +15,14 @@ header {
 }
 
 header h1 {
-  display: inline;
   font-family: 'Megrim', cursive;
-  float: left;
-  width: 50%;
   font-size: 300%;
+  padding-left: 10px;
+  padding-top: 5px;
 }
 
 nav li {
-  display: inline;
-  float: right;
-  width: 50%;
+  padding: 5px;
 }
 
 /*----------------------BODY-------------------------------*/
@@ -60,9 +57,10 @@ body {
 #nav li {
   display: inline;
   list-style-type: none;
+}
 
 /*--------BLOG------------*/
 
 #greeting {
-  background-color: blue;
+  color: blue;
 }
