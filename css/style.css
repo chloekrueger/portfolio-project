@@ -3,6 +3,7 @@
 * {
   text-decoration: none;
   list-style-type: none;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 /*----------------------HEADER-------------------------------*/
@@ -14,15 +15,28 @@ header {
   height: 100px;
 }
 
-header h1 {
+h1 a {
   font-family: 'Megrim', cursive;
-  font-size: 300%;
-  padding-left: 10px;
-  padding-top: 5px;
+  font-size: 150%;
+  padding-left: 20px;
+  padding-top: 30px;
+  color: #afc2ce;
 }
 
-nav li {
-  padding: 5px;
+header h1:hover {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+nav a:link {
+  padding: 10px;
+  color: #afc2ce;
+  list-style-type: none;
+}
+
+nav a:hover, h1 a:hover {
+  color: #ffe162;
+  text-decoration: none;
 }
 
 /*----------------------BODY-------------------------------*/
@@ -31,7 +45,10 @@ body {
   background-color: #d7e0e6;
   width: 100%;
   margin: 0 auto;
-  font-family: 'Titillium Web', sans-serif;
+}
+
+p {
+  font-size: 115%;
 }
 
 /*----------------------HOME PAGE---------------------------*/
@@ -40,8 +57,58 @@ body {
   border-radius: 100%;
   width: 300px;
   height: auto;
+  padding-left: 50px;
 }
 
+#home-page {
+  padding: 75px 0;
+}
+
+#home-para {
+  padding-right: 50px;
+}
+/*----------------------Media Page---------------------------*/
+
+#greeting {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #809aae;
+  width: 30%;
+  color: #ffe162;
+}
+
+#media-content {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+#vids {
+  margin: 0 auto;
+  text-align: center;
+}
+
+iframe {
+  padding: 10px;
+}
+/*----------------------Footer---------------------------*/
+
+footer {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: #809aae;
+}
+
+footer li a {
+  font-size: 130%;
+  color: #000000;
+}
+
+footer p {
+  font-size: 140%;
+  color: #000000;
+}
 /*--------BLOG------------*/
 
 #blog-content {
@@ -60,7 +127,3 @@ body {
 }
 
 /*--------BLOG------------*/
-
-#greeting {
-  color: blue;
-}
