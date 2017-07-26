@@ -126,4 +126,9 @@ footer p {
   list-style-type: none;
 }
 
-/*--------BLOG------------*/
+/*--------CYOA-------fix this later center, etc.-----*/
+
+#adventure {
+  margin: 0 auto;
+  width: 70%;
+}

@@ -1,16 +1,31 @@
-/*var welcome = prompt("Welcome to Chloe's Choose your own adventure page!");
-var proceed = prompt("Would you like to have an adventure?");
-if(proceed === yes)
+var proceed = prompt("Welcome to Chloe's Choose your own adventure page! Would you like to have an adventure?");
+if (proceed === 'yes')
 {
   alert("Yay, get psyched for your adventure!");
+    var direction = prompt('You have arrived at a fork in the road, to go left, type "left" or to go right, type "right".');
+      if (direction === 'right')
+      {
+        var monster = prompt('RIGHT! Now, you have run into a monster, do you run away or tickle him? Type run or tickle!');
+      }
+      else if (direction === 'left')
+      {
+        var chocolate = prompt('Lefties, you have landed in a chocolate fountain, do you drink up or get out? Type drink or out.');
+      }
+      else {
+        alert("Invalid response, refresh to begin again!");
+      }
+}
+else if (proceed === 'no')
+{
+  alert("Bummer, no adventure for you!");
 }
 else
 {
-  alert("Bummer, no adventure for you, refresh to begin again!");
-}*/
+  alert("Invalid response, refresh to begin again!");
+}
 
 
-var direction = prompt('You have arrived at a fork in the road, to go left, type left or to go right, type right.');
+/*var direction = prompt('You have arrived at a fork in the road, to go left, type "left" or to go right, type "right".');
   if (direction === 'right') {
       var monster = prompt('RIGHT! Now, you have run into a monster, do you run away or tickle him? Type run or tickle!');
         if (monster === run) {
@@ -38,3 +53,4 @@ var direction = prompt('You have arrived at a fork in the road, to go left, type
     else {
         alert('Invalid selection, refresh to start again!')
         }
+*/
