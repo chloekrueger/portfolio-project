@@ -130,5 +130,22 @@ footer p {
 
 #adventure {
   margin: 0 auto;
-  width: 70%;
+  width: 40%;
+  text-align: center;
+}
+
+#adv-title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*--------------for javascript-removet this it looks bad------------*/
+
+.highlighted {
+  color: orange;
+  font-weight:bold;
+}
+
+#hidden-blurb {
+  display:none;
 }
