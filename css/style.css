@@ -35,9 +35,10 @@ nav a:link {
 }
 
 nav a:hover, h1 a:hover {
-  color: #ffe162;
+  color: #f9efb9;
   text-decoration: none;
 }
+
 
 /*----------------------BODY-------------------------------*/
 
@@ -91,6 +92,13 @@ p {
 iframe {
   padding: 10px;
 }
+
+/*----------------------Contact page---------------------------*/
+
+#form {
+  margin: 0 auto;
+  padding-left: 40px;
+}
 /*----------------------Footer---------------------------*/
 
 footer {
@@ -102,7 +110,7 @@ footer {
 
 footer li a {
   font-size: 130%;
-  color: #000000;
+  color: #afc2ce;
 }
 
 footer p {

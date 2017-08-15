@@ -23,7 +23,7 @@
               <li><a href="/projects">Projects</a></li>
               <li><a href="/media">Media</a></li>
               <li><a href="/blog">Blog</a></li>
-              <li><a href="/Contact">Contact</a></li>
+              <li><a href="contact" class="current">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -34,11 +34,11 @@
     <!--
       The action attribute defines where on the server the form data should be sent
       The method attribute specifies the HTTP method (GET or POST)
-    -->
-
+        -->
+  <div id="form">
     <form action="//formspree.io/savcod@mailinator.com" method="POST">
       <div>
-      <input required type="text" name="firstname" placeholder="First Name*" size="50" autofocus>
+      <input required type="text" name="firstname" placeholder="First Name*" size="50" autofocus><br>
       <input required type="text" name="lastname" placeholder="Last Name*" size="50"><br>
       <input required type="email" name="userEmail" placeholder="your.email@example.com*" size="100"><br>
       </div>
@@ -49,17 +49,11 @@
         <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
       </label></div>
       <div><br>
-      <textarea name="user_message" rows="8" cols="40"></textarea>
+      <textarea name="user_message" rows="8" cols="40"></textarea><br>
       <input type="submit">
       </div>
     </form>
-</form>
-<ul id="contact-list">
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-</ul>
+  </div>
   <footer>
     <ul>
       <li><a href="https://www.linkedin.com/in/chloe-krueger-12705b69/">LinkedIn</a><li>
